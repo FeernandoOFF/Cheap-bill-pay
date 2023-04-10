@@ -7,18 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5716DE0D29E43B4A003A4F70 /* UsageTrend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5716DE0C29E43B4A003A4F70 /* UsageTrend.swift */; };
+		57421D3429DF61AC000C0C56 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57421D3329DF61AB000C0C56 /* HomeViewModel.swift */; };
+		5745E44629E4895400707508 /* UsageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5745E44529E4895400707508 /* UsageViewModel.swift */; };
+		5745E44829E491DE00707508 /* PDFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5745E44729E491DE00707508 /* PDFView.swift */; };
+		5745E44A29E4A78400707508 /* BreakdownModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5745E44929E4A78400707508 /* BreakdownModel.swift */; };
+		5745E44D29E4A8F700707508 /* NavigationBarViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5745E44C29E4A8F700707508 /* NavigationBarViewModifier.swift */; };
+		5745E44F29E4A9EB00707508 /* BreakdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5745E44E29E4A9EB00707508 /* BreakdownView.swift */; };
+		5745E45129E4B6B100707508 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5745E45029E4B6B100707508 /* ChartView.swift */; };
 		5767295C29DF27DF00D8A69F /* Cheap_bill_payApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5767295B29DF27DF00D8A69F /* Cheap_bill_payApp.swift */; };
 		5767295E29DF27DF00D8A69F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5767295D29DF27DF00D8A69F /* ContentView.swift */; };
 		5767296029DF27E100D8A69F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5767295F29DF27E100D8A69F /* Assets.xcassets */; };
 		5767296329DF27E100D8A69F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5767296229DF27E100D8A69F /* Preview Assets.xcassets */; };
+		5767296D29DF291900D8A69F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5767296C29DF291900D8A69F /* HomeView.swift */; };
+		5767296F29DF292C00D8A69F /* UsageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5767296E29DF292C00D8A69F /* UsageView.swift */; };
+		5767297129DF29AF00D8A69F /* PaymentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5767297029DF29AF00D8A69F /* PaymentsView.swift */; };
+		5767297629DF2E5800D8A69F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5767297529DF2E5800D8A69F /* NetworkManager.swift */; };
+		5767297929DF418C00D8A69F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5767297829DF418C00D8A69F /* CardView.swift */; };
+		5767297B29DF480500D8A69F /* NextPayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5767297A29DF480400D8A69F /* NextPayModel.swift */; };
+		57A46A0329DF6DF700955E7B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 57A46A0229DF6DF700955E7B /* Alamofire */; };
+		57F4192C29DF885B006ED19F /* PaymentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F4192B29DF885B006ED19F /* PaymentsViewModel.swift */; };
+		57F4192E29DF889C006ED19F /* PaymentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F4192D29DF889C006ED19F /* PaymentModel.swift */; };
+		57F4193129DF8B8A006ED19F /* PaymentsReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F4193029DF8B8A006ED19F /* PaymentsReceipt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5716DE0C29E43B4A003A4F70 /* UsageTrend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageTrend.swift; sourceTree = "<group>"; };
+		57421D3329DF61AB000C0C56 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		5745E44529E4895400707508 /* UsageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageViewModel.swift; sourceTree = "<group>"; };
+		5745E44729E491DE00707508 /* PDFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFView.swift; sourceTree = "<group>"; };
+		5745E44929E4A78400707508 /* BreakdownModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakdownModel.swift; sourceTree = "<group>"; };
+		5745E44C29E4A8F700707508 /* NavigationBarViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarViewModifier.swift; sourceTree = "<group>"; };
+		5745E44E29E4A9EB00707508 /* BreakdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakdownView.swift; sourceTree = "<group>"; };
+		5745E45029E4B6B100707508 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		5767295829DF27DF00D8A69F /* Cheap-bill-pay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cheap-bill-pay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5767295B29DF27DF00D8A69F /* Cheap_bill_payApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cheap_bill_payApp.swift; sourceTree = "<group>"; };
 		5767295D29DF27DF00D8A69F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5767295F29DF27E100D8A69F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5767296229DF27E100D8A69F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5767296C29DF291900D8A69F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5767296E29DF292C00D8A69F /* UsageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageView.swift; sourceTree = "<group>"; };
+		5767297029DF29AF00D8A69F /* PaymentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsView.swift; sourceTree = "<group>"; };
+		5767297529DF2E5800D8A69F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5767297829DF418C00D8A69F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		5767297A29DF480400D8A69F /* NextPayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextPayModel.swift; sourceTree = "<group>"; };
+		57F4192B29DF885B006ED19F /* PaymentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsViewModel.swift; sourceTree = "<group>"; };
+		57F4192D29DF889C006ED19F /* PaymentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentModel.swift; sourceTree = "<group>"; };
+		57F4193029DF8B8A006ED19F /* PaymentsReceipt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsReceipt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +61,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57A46A0329DF6DF700955E7B /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57421D3229DF619C000C0C56 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				57421D3329DF61AB000C0C56 /* HomeViewModel.swift */,
+				57F4192B29DF885B006ED19F /* PaymentsViewModel.swift */,
+				5745E44529E4895400707508 /* UsageViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5745E44229E4837000707508 /* Usage */ = {
+			isa = PBXGroup;
+			children = (
+				5767296E29DF292C00D8A69F /* UsageView.swift */,
+				5745E45029E4B6B100707508 /* ChartView.swift */,
+			);
+			path = Usage;
+			sourceTree = "<group>";
+		};
+		5745E44B29E4A8DE00707508 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5745E44C29E4A8F700707508 /* NavigationBarViewModifier.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		5767294F29DF27DF00D8A69F = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +114,11 @@
 		5767295A29DF27DF00D8A69F /* Cheap-bill-pay */ = {
 			isa = PBXGroup;
 			children = (
+				5745E44B29E4A8DE00707508 /* Utils */,
+				57421D3229DF619C000C0C56 /* ViewModels */,
+				5767297429DF2E4A00D8A69F /* Services */,
+				5767296A29DF28D300D8A69F /* Models */,
+				5767296929DF28CD00D8A69F /* Views */,
 				5767295B29DF27DF00D8A69F /* Cheap_bill_payApp.swift */,
 				5767295D29DF27DF00D8A69F /* ContentView.swift */,
 				5767295F29DF27E100D8A69F /* Assets.xcassets */,
@@ -65,6 +133,55 @@
 				5767296229DF27E100D8A69F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5767296929DF28CD00D8A69F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5745E44229E4837000707508 /* Usage */,
+				57F4192F29DF8B6F006ED19F /* Payment */,
+				5767297729DF3ED000D8A69F /* Home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5767296A29DF28D300D8A69F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5767297A29DF480400D8A69F /* NextPayModel.swift */,
+				57F4192D29DF889C006ED19F /* PaymentModel.swift */,
+				5745E44929E4A78400707508 /* BreakdownModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5767297429DF2E4A00D8A69F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5767297529DF2E5800D8A69F /* NetworkManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5767297729DF3ED000D8A69F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5767296C29DF291900D8A69F /* HomeView.swift */,
+				5767297829DF418C00D8A69F /* CardView.swift */,
+				5716DE0C29E43B4A003A4F70 /* UsageTrend.swift */,
+				5745E44E29E4A9EB00707508 /* BreakdownView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		57F4192F29DF8B6F006ED19F /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				5767297029DF29AF00D8A69F /* PaymentsView.swift */,
+				57F4193029DF8B8A006ED19F /* PaymentsReceipt.swift */,
+				5745E44729E491DE00707508 /* PDFView.swift */,
+			);
+			path = Payment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +200,9 @@
 			dependencies = (
 			);
 			name = "Cheap-bill-pay";
+			packageProductDependencies = (
+				57A46A0229DF6DF700955E7B /* Alamofire */,
+			);
 			productName = "Cheap-bill-pay";
 			productReference = 5767295829DF27DF00D8A69F /* Cheap-bill-pay.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +231,9 @@
 				Base,
 			);
 			mainGroup = 5767294F29DF27DF00D8A69F;
+			packageReferences = (
+				57A46A0129DF6DF700955E7B /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 5767295929DF27DF00D8A69F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +260,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5767297B29DF480500D8A69F /* NextPayModel.swift in Sources */,
+				5716DE0D29E43B4A003A4F70 /* UsageTrend.swift in Sources */,
+				57F4192E29DF889C006ED19F /* PaymentModel.swift in Sources */,
+				5745E44D29E4A8F700707508 /* NavigationBarViewModifier.swift in Sources */,
+				57421D3429DF61AC000C0C56 /* HomeViewModel.swift in Sources */,
+				5767296D29DF291900D8A69F /* HomeView.swift in Sources */,
 				5767295E29DF27DF00D8A69F /* ContentView.swift in Sources */,
+				57F4193129DF8B8A006ED19F /* PaymentsReceipt.swift in Sources */,
+				5745E44629E4895400707508 /* UsageViewModel.swift in Sources */,
+				5767297629DF2E5800D8A69F /* NetworkManager.swift in Sources */,
+				5745E45129E4B6B100707508 /* ChartView.swift in Sources */,
+				5767296F29DF292C00D8A69F /* UsageView.swift in Sources */,
+				5745E44F29E4A9EB00707508 /* BreakdownView.swift in Sources */,
 				5767295C29DF27DF00D8A69F /* Cheap_bill_payApp.swift in Sources */,
+				5767297929DF418C00D8A69F /* CardView.swift in Sources */,
+				5745E44829E491DE00707508 /* PDFView.swift in Sources */,
+				5745E44A29E4A78400707508 /* BreakdownModel.swift in Sources */,
+				5767297129DF29AF00D8A69F /* PaymentsView.swift in Sources */,
+				57F4192C29DF885B006ED19F /* PaymentsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +415,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +445,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +481,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		57A46A0129DF6DF700955E7B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		57A46A0229DF6DF700955E7B /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 57A46A0129DF6DF700955E7B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5767295029DF27DF00D8A69F /* Project object */;
 }
